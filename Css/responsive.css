@@ -1,0 +1,161 @@
+@media screen and (max-width: 1060px) {
+
+    /*sobre*/
+    .about {
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 30px;
+    }
+}
+
+@media screen and (max-width: 880px) {
+    /*sistemas*/
+
+    .grupo-sistemas {
+        flex-direction: column!important;
+        transform: scale(0.8);
+    }
+}
+
+@media screen and (max-width: 935px) {
+    /*servicos*/
+
+    .div-servicos {
+        flex-direction: column!important;
+        display: flex;
+        align-items: center;
+    }
+
+    .div-servicos .img-landing-servicos {
+        position: absolute;
+        top: 470px;
+        left: 155px;
+        display: flex;
+    }
+
+    .qualidades {
+        padding-left: 50px;
+        margin-top: -30px;
+    }
+}
+
+@media screen and (max-width: 770px) {
+    /*header e hero*/
+
+    .header {
+        padding-left: 0!important;
+        padding-right: 0!important;
+        
+    }
+
+    .header .logo {
+        width: 100px;
+        
+    }
+
+    .img-hero img{
+        width: 800px!important;
+        display: flex;
+        justify-content: center;
+    }
+
+    .sombra-hero {
+        height: 400px;
+    }
+}
+
+@media screen and (max-width: 740px) {
+    /*hero*/
+
+    .home h1 {
+        font-size: 44px;
+    }
+
+    .sombra-hero {
+        height: 350px;
+    }
+
+    .servicos h1 {
+        margin-bottom: -50px!important;
+    }
+
+
+}
+
+@media screen and (max-width: 700px) {
+    /*servicos*/
+
+    .div-img-servicos {
+        transform: scale(0.6);
+    }
+}
+
+@media screen and (max-width: 596px) {
+
+    /*header e hero*/
+    .header .logo {
+        position: absolute;
+        top: 15px;
+        left: -70px;
+    }
+
+    .header .navbar-toggler-icon {
+        position: absolute;
+        top: 15px;
+        right: -70px;
+    }
+
+    .img-hero img {
+        width: 660px!important;
+    }
+
+
+
+}
+
+@media screen and (max-width: 530px) {
+    .title-responsive {
+        font-size: 30px!important;
+    }
+
+    .grupo-projetos {
+        transform: scale(0.9);
+    }
+
+    .sistemas h1 {
+        margin-bottom: 10px;
+    }
+}
+
+@media screen and (max-width: 513px) {
+
+    /*hero*/
+    .sombra-hero {
+        margin-top: 50px;
+    }
+
+    .sobre h1 {
+        margin-top: 30px!important;
+        padding-left: 0!important;
+        padding-right: 0!important;
+    }
+
+    /*sobre*/
+
+    .sobre img{
+        width: 350px;
+    }
+    
+    .sistemas h2 {
+        font-size: 28px;
+        width: 320px;
+    }
+
+    .line {
+        width: 100%;
+        padding-left: 0px;
+        padding-right: 0px;
+        margin-right: 0;
+        margin-left:0;
+    }
+}
