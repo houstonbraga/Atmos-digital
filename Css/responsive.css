@@ -152,10 +152,14 @@
     }
 
     .line {
-        width: 100%;
-        padding-left: 0px;
-        padding-right: 0px;
-        margin-right: 0;
-        margin-left:0;
+        width: 100%; 
+    }
+
+    .linha {
+        width: 300px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 50px!important;
     }
 }

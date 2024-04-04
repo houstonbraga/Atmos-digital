@@ -57,7 +57,7 @@ body {
     font-family: 'Poppins regular'!important;
     padding-left: 80px;
     padding-right: 80px;
-    overflow-x: hidden;
+    overflow-x: hidden!important;
 }
 
 .color-purple {
