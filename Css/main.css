@@ -321,7 +321,7 @@ a.navbar-brand {
 }
 
 .grupo-projetos {
-    gap: 15px;
+    gap: 1px;
     margin-bottom: 40px;
     
 }
@@ -336,9 +336,7 @@ a.navbar-brand {
     color: #22dce9;
 }
 
-.projeto img {
-    box-shadow: 7px 7px #b84480bd;
-}
+
 
 .landing-page-text{
     max-width: 600px;
