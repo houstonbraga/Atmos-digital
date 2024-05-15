@@ -134,6 +134,7 @@ a.navbar-brand {
     top: -100px;
     z-index: -1;
     height: 100vh;
+    overflow: hidden!important;
 }
 
 .home {
