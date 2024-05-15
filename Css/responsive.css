@@ -106,7 +106,7 @@
     }
 
     .img-hero img {
-        width: 660px!important;
+        width: 420px!important;
     }
 
 
@@ -151,6 +151,7 @@
     .home {
         padding-left: 0!important;
         padding-right: 0!important;
+        margin-bottom: -270px!important;
     }
 
     .sobre h1 {

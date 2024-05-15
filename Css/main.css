@@ -183,18 +183,35 @@ a.navbar-brand {
 }
 
 .separator-logo {
-    background-color: #B84480;
+    background-color: transparent;
     width: 100%;
     position: absolute;
-    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.432);
+    
+    box-shadow: 0px 5px 22px #aa3b74dc;
     right: 0;
     left: 0;
-    height: 35px;
+    height: 40px;
     margin-top: 300px;
-    opacity: ;
+    opacity: 0.1;
     -ms-transform: skewY(4deg); /* IE 9*/
     -webkit-transform: skewY(4deg); /*safari*/
     transform: skewY(4deg);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.conteudo-separator {
+    opacity: 1!important;
+    display: flex;
+    flex-direction: row;
+    gap: 70px;
+}
+
+.img-separator {
+    opacity: 0.4;
+
 }
 
 /*QUEM SOMOS*/
