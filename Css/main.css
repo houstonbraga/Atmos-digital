@@ -232,7 +232,7 @@ a.navbar-brand {
 
 .sobre h2 {
     font-size: 44px;
-    font-family: 'Gurajada';
+    font-family: 'Gurajada-regular';
     color: #FAA819;
 }
 
@@ -240,10 +240,11 @@ a.navbar-brand {
 .about {
     display: flex;
     flex-direction: row;
-    justify-content: row;
+    justify-content: center;
     align-items: center;
-    gap: 200px;
+    gap: 100px;
     margin-top: 100px;
+    padding: 0 50px;
 }
 
 .about p {
@@ -287,6 +288,87 @@ a.navbar-brand {
     margin-bottom: 50px;
     color: #FAA819;
 }
+
+.conjunto-cards-servicos {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.card-servico {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    width: 316px;
+    height: 404px;
+    background-color: #1b1b1b;
+    z-index: 1;
+}
+
+.card-servico::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-radius: 10px;
+    padding: 1px;
+    background: linear-gradient(#B84480, #FAA819);
+    -webkit-mask: 
+        linear-gradient(#fff 0 0) content-box, 
+        linear-gradient(#fff 0 0);
+    -webkit-mask-composite: destination-out;
+    mask-composite: exclude;
+    z-index: -1;
+}
+
+.card-servico h2 {
+    font-size: 40px;
+    font-family: 'Gurajada-regular';
+    color: #B84480;
+    margin-top: -15px;
+}
+
+.card-servico p {
+    font-family: 'Poppins regular';
+    font-size: 14px;
+    text-align: center;
+}
+
+.button-servico {
+    margin-top: 20px;
+    background-color: transparent!important;
+    border: 1px solid #FAA819!important;
+    color: white!important;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.2s linear;
+}
+
+.button-servico:hover {
+    border: 1px solid #B84480!important;
+    color: #B84480!important;
+}
+
+/* divisoria servicos */
+
+.divisoria-servicos {
+    overflow-x: hidden;
+    opacity: 10%;
+    margin-top: 200px;
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: row;
+    gap: 80px;
+    align-items: center;
+}
+
+/*servico segunda parte*/ 
 
 .img-landing-servicos {
     position: absolute;
@@ -337,6 +419,28 @@ a.navbar-brand {
     font-weight: 300;
     width: 200px;
 }
+
+/*sessao como funciona*/
+
+.sessao-como-funciona {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sessao-como-funciona h2 {
+    font-family: 'Gurajada-regular';
+    font-size: 44px;
+    color: #FAA819;
+}
+
+.sessao-como-funciona h1 {
+    text-align: center;
+    font-family: 'Graphik medium';
+}
+
+
 
 /*landing pages*/
 
