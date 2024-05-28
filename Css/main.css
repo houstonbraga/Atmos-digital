@@ -349,6 +349,7 @@ a.navbar-brand {
     border-radius: 10px;
     cursor: pointer;
     transition: 0.2s linear;
+    box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.486);
 }
 
 .button-servico:hover {
@@ -486,7 +487,41 @@ a.navbar-brand {
     
 }
 
+/*divisoria palavras chaves*/
 
+.divisoria-palavras-chave {
+    background: linear-gradient(to right, #B84480, #DF93BA);
+    width: 100%;
+    height: 35px;
+    position: absolute;
+    box-shadow: 0px 5px 22px #000000ad;
+    right: 0;
+    left: 0;
+    opacity: 1;
+    -ms-transform: skewY(-4deg); /* IE 9*/
+    -webkit-transform: skewY(-4deg); /*safari*/
+    transform: skewY(-4deg);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    white-space: nowrap;
+    gap: 50px;
+}
+
+.conjunto-palavras {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    animation: 15s slide2 infinite linear;
+}
+
+.palavra span {
+    color: #1b1b1b;
+    font-size: 24px;
+    font-weight: 700;
+}
 
 
 
@@ -495,7 +530,7 @@ a.navbar-brand {
 .sistemas {
     display: flex;
     flex-direction: column;
-
+    margin-top: 300px;
     justify-content: center;
     align-items: center;
 }
