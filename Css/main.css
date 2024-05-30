@@ -360,7 +360,7 @@ a.navbar-brand {
 /* divisoria servicos */
 
 .divisoria-servicos {
-    overflow-x: hidden;
+    overflow: hidden!important;
     opacity: 10%;
     margin-top: 200px;
     margin-bottom: 100px;
@@ -505,7 +505,7 @@ a.navbar-brand {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    overflow: hidden;
+    overflow: hidden!important;
     white-space: nowrap;
     gap: 50px;
 }
@@ -523,7 +523,65 @@ a.navbar-brand {
     font-weight: 700;
 }
 
+/*landing pages*/
 
+.landing-pages {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 200px;
+    align-items: center;
+}
+
+.landing-pages h2 {
+    font-family: 'Gurajada-regular';
+    font-size: 44px;
+    color: #FAA819;
+    margin-bottom: 50px;
+}
+
+.grupo-sobre-lp {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: start;
+}
+
+.grupo-img-lp {
+    position: relative;
+}
+
+.img-dekstop {
+    filter: drop-shadow(5px 5px 25px rgba(0, 0, 0, 0.233));
+}
+
+.img-mobile {
+    position: absolute;
+    top: 200px;
+    right: -50px;
+    filter: drop-shadow(5px 5px 25px rgba(0, 0, 0, 0.39));
+}
+
+.textolp1 {
+    margin-top: 30px;
+    max-width: 400px;
+}
+
+.textolp1 .span-lp1 {
+    color: #FAA819;
+    font-weight: 700;
+}
+
+.textolp1 .span-lp2 {
+    color: #B84480;
+    font-weight: 700;
+}
+
+.textolp2 {
+    max-width: 350px;
+    margin-left: 50px;
+    margin-top: 50px;
+}
 
 /*sistemas*/
 
