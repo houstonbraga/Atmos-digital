@@ -484,7 +484,6 @@ a.navbar-brand {
     width: 1px;
     height: 260px;
     background-image: linear-gradient(to bottom, #B84480, #FAA819);
-    
 }
 
 /*divisoria palavras chaves*/
@@ -518,9 +517,9 @@ a.navbar-brand {
 }
 
 .palavra span {
-    color: #1b1b1b;
+    color: white;
     font-size: 24px;
-    font-weight: 700;
+    font-weight: 300;
 }
 
 /*landing pages*/
@@ -552,14 +551,15 @@ a.navbar-brand {
 }
 
 .img-dekstop {
-    filter: drop-shadow(5px 5px 25px rgba(0, 0, 0, 0.233));
+    filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.5));
 }
 
 .img-mobile {
     position: absolute;
     top: 200px;
     right: -50px;
-    filter: drop-shadow(5px 5px 25px rgba(0, 0, 0, 0.39));
+    filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.5));
+
 }
 
 .textolp1 {
@@ -583,20 +583,89 @@ a.navbar-brand {
     margin-top: 50px;
 }
 
+/*
+    trabalhos realizados
+*/
+
+
+.session-trabalhos {
+    margin-top: 200px;
+    margin-bottom: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.session-trabalhos h2 {
+    font-family: 'Gurajada-regular';
+    font-size: 44px;
+    color: #FAA819;
+    margin-bottom: 60px;
+}
+
+.conjunto-projetos {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start!important;
+    overflow: hidden!important;
+    gap: 10px;
+    margin-bottom: 50px;
+}
+
+
+
+.projetos-div {
+    display: flex;
+}
+
+.projeto {
+    display: flex;
+    flex-direction: column;
+}
+
+.projeto span {
+    font-family: 'Gurajada';
+    font-size: 24px;
+    color: #72E985;
+}
+
+.conjunto-listras{
+    display: flex;
+    gap: 3px;
+    margin-bottom: 50px;
+}
+
+.listra-projetos {
+    width: 50px;
+    height: 2px;
+    background-color: white;
+}
+
+.listra-projetos-selecionado {
+    background-color: #B84480;
+}
+
+.session-trabalhos p {
+    max-width: 620px;
+    text-align: center;
+}
+
+
 /*sistemas*/
 
 .sistemas {
     display: flex;
     flex-direction: column;
-    margin-top: 300px;
+    margin-top: 100px;
     justify-content: center;
     align-items: center;
 }
 
-.sistemas h1 {
-    font-size: 36px;
-    font-family: 'Poppins medium';
-    margin-bottom: 100px;
+.nossos-sistemas {
+    font-family: 'Gurajada-regular'!important;
+    font-size: 44px!important;
+    color: #FAA819!important;
+    margin-bottom: 50px!important;
 }
 
 .sistema img {
