@@ -841,8 +841,8 @@ a.navbar-brand {
 
 .group-footer {
     flex-wrap: wrap;
-    justify-content: center;
-    gap: 80px;
+    justify-content: space-evenly;
+    gap: 20px;
 }
 
 .group1 {
@@ -852,73 +852,176 @@ a.navbar-brand {
     gap: 20px;
 }
 
+.group1 p {
+    font-size: 16px;
+    color: #858585;
+}
+
 .group2 {
-    gap: 5px;
+    gap: 0px;
     margin-top: 50px;
+    
 }
 
 /*imput footer*/
 
-.input {
+.form {
     position: relative;
-    max-width: 350px;
-    border: none;
-    box-shadow: 0px 1.5px 0px 0px #FAA819;
-    padding: .5rem;
-    transition: all 200ms ease-in-out;
-    opacity: .8;
-  }
-  
-  .input-box {
     display: flex;
     flex-direction: column;
+    gap: 10px;
+    max-width: 350px;
+    padding: 20px;
+    border-radius: 20px;
+    position: relative;
+    background-color: #33333383; 
+    color: #fff;
+    border: 1px solid #333;
+    z-index: 1;
   }
-  
-  .input-label {
-    font-size: .625rem;
-    font-weight: bold;
-    color: #858585;
-    margin-bottom: 4px;
-    margin-left: 1px;
-  }
-  
-  .input-helper {
-    color: #858585;
-    font-size: .5rem;
-    margin-top: 6px;
-    margin-left: 1px;
-    visibility: hidden;
-    transform: translateY(-.5rem);
-    transition: all 100ms linear;
-    z-index: -1;
-  }
-  
-  .input::placeholder {
-    color: rgb(145, 145, 145);
-    font-size: .75rem;
-  }
-  
-  .input::after {
-    content: attr(placeholder);
+
+  .form::before {
+    content: "";
     position: absolute;
-    color: #161616;
     top: 0;
     left: 0;
+    right: 0;
+    bottom: 0;
+    border-radius: 10px;
+    padding: 1px;
+    background: linear-gradient(#B84480, #FAA819);
+    -webkit-mask: 
+        linear-gradient(#fff 0 0) content-box, 
+        linear-gradient(#fff 0 0);
+    -webkit-mask-composite: destination-out;
+    mask-composite: exclude;
+    
+}
+  
+  .title {
+    font-size: 28px;
+    font-weight: 600;
+    letter-spacing: -1px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+    color: #B84480;
   }
   
-  .input:focus {
+  .title::before {
+    width: 18px;
+    height: 18px;
+  }
+  
+  .title::after {
+    width: 18px;
+    height: 18px;
+    animation: pulse 1s linear infinite;
+  }
+  
+  .title::before,
+  .title::after {
+    position: absolute;
+    content: "";
+    height: 16px;
+    width: 16px;
+    border-radius: 50%;
+    left: 0px;
+    background-color: #B84480;
+  }
+  
+  .message, 
+  .signin {
+    font-size: 14.5px;
+    color: rgba(255, 255, 255, 0.7);
+  }
+  
+  .signin {
+    text-align: center;
+  }
+  
+  .signin a:hover {
+    text-decoration: underline #FAA819;
+  }
+  
+  .signin a {
+    color: #B84480;
+  }
+  
+  .flex {
+    display: flex;
+    width: 100%;
+    gap: 6px;
+  }
+  
+  .form label {
+    position: relative;
+  }
+  
+  .form label .input {
+    background-color: #333333ce;
+    color: #fff;
+    width: 100%;
+    padding: 20px 05px 05px 10px;
+    outline: 0;
+    border: 1px solid rgba(105, 105, 105, 0.397);
+    border-radius: 10px;
+  }
+  
+  .form label .input + span {
+    color: rgba(255, 255, 255, 0.5);
+    position: absolute;
+    left: 10px;
+    top: 0px;
+    font-size: 0.9em;
+    cursor: text;
+    transition: 0.3s ease;
+  }
+  
+  .form label .input:placeholder-shown + span {
+    top: 12.5px;
+    font-size: 0.9em;
+  }
+  
+  .form label .input:focus + span,
+  .form label .input:valid + span {
+    color: #FAA819;
+    top: 0px;
+    font-size: 0.7em;
+    font-weight: 600;
+  }
+  
+  .input {
+    font-size: medium;
+  }
+  
+  .submit {
     border: none;
-    box-shadow: 0px 1.5px 0px 0px #72E985;
     outline: none;
+    padding: 10px;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 16px;
+    transform: .3s ease;
+    background-color: #FAA819;
+    cursor: pointer;
   }
   
-  .input:focus + .input-helper {
-    visibility: visible;
-    transform: translateY(0rem);
+  .submit:hover {
+    background-color: #FAA819;
   }
   
-  .input:focus::placeholder {
-    visibility: hidden;
+  @keyframes pulse {
+    from {
+      transform: scale(0.9);
+      opacity: 1;
+    }
+  
+    to {
+      transform: scale(1.8);
+      opacity: 0;
+    }
   }
 
 
@@ -956,7 +1059,7 @@ a.navbar-brand {
     display: flex;
     justify-content: center;
     font-family: 'Poppins light';
-    color: #e2e2e2;
+    color: #e2e2e283;
 }
 
 .icones-contatos img {
