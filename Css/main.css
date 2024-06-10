@@ -1019,7 +1019,23 @@ a.navbar-brand {
     border-radius: 6px;
   }
   
-  
+.lista-n-ord {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    gap: 10px;
+}
+
+.contatos {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+}
+
+.contatos a {
+    color: #B84480;
+}
   
   
   
@@ -1032,29 +1048,6 @@ a.navbar-brand {
 
 }
 
-.enviar-icones {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    gap: 30px;
-}
-
-.enviar-icones button{
-    width: 100px;
-    height: 40px;
-    color: white;
-    background-color: #FAA819;
-    border: none;
-    cursor: pointer;
-    transition: 0.2s ease-in-out;
-}
-
-.icones-contatos {
-    display: flex;
-    flex-direction: row;
-    gap: 10px;
-}
-
 .copy-footer {
     margin-top: 30px;
     display: flex;
@@ -1063,13 +1056,7 @@ a.navbar-brand {
     color: #e2e2e283;
 }
 
-.icones-contatos img {
-    transition: 0.2s linear;
-}
 
-.icones-contatos img:hover {
-    filter: brightness(1000);
-}
 
 
 
