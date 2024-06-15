@@ -6,14 +6,20 @@
         flex-direction: column-reverse;
         gap: 30px;
     }
-}
 
-@media screen and (max-width: 880px) {
-    /*sistemas*/
+    .conjunto-cards-servicos {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
 
-    .grupo-sistemas {
-        flex-direction: column!important;
-        transform: scale(0.8);
+    .conjunto-etapas {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .linha-etapas3 {
+        display: none;
     }
 }
 
@@ -38,6 +44,27 @@
         margin-top: -30px;
     }
 }
+
+@media screen and (max-width: 919px) {
+    .linha-etapas3 {
+        display: flex;
+    }
+
+    .linha-etapas2 {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 880px) {
+    /*sistemas*/
+
+    .grupo-sistemas {
+        flex-direction: column!important;
+        transform: scale(0.8);
+    }
+}
+
+
 
 @media screen and (max-width: 770px) {
     /*header e hero*/
@@ -83,6 +110,23 @@
 
     .div-img-servicos {
         transform: scale(0.6);
+    }
+}
+
+@media screen and (max-width: 667px) {
+    .conjunto-etapas {
+        display: flex;
+        flex-direction: column;
+        
+    }
+    
+    .linha-etapas2 {
+        display: flex;
+    }
+
+    .linha-etapas {
+        transform: rotate(270deg);
+        
     }
 }
 
