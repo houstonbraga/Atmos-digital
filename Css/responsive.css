@@ -117,7 +117,6 @@
     .conjunto-etapas {
         display: flex;
         flex-direction: column;
-        
     }
     
     .linha-etapas2 {
@@ -126,7 +125,6 @@
 
     .linha-etapas {
         transform: rotate(270deg);
-        
     }
 }
 

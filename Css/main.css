@@ -124,12 +124,6 @@ a.navbar-brand {
 .nav-item a:hover::after {
     width: 30px;
 }
-
-.navbar {
-    display: flex;
-    
-}
-
 /*HERO*/
 
 .home .img-hero {
@@ -155,7 +149,7 @@ a.navbar-brand {
     padding-top: 50px;
     font-size: 60px;
     font-family: 'Graphik medium';
-    margin-top: 150px;
+    margin-top: 80px;
 }
 
 .home p {
