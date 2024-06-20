@@ -208,9 +208,7 @@
 
 @media screen and (max-width: 530px) {
 
-    .grupo-projetos {
-        transform: scale(0.9);
-    }
+    
 
     .sistemas h1 {
         margin-bottom: 10px;
@@ -234,13 +232,11 @@
     /*hero*/
 
     body {
-        padding-left: 80px!important;
-        padding-right: 80px!important;
+        padding-left: 20px!important;
+        padding-right: 20px!important;
     }
     
     .home {
-        padding-left: 0!important;
-        padding-right: 0!important;
         margin-bottom: -270px!important;
     }
 
@@ -262,11 +258,10 @@
     }
 
     .linha {
-        width: 300px;
+        width: 100%;
         display: flex;
         justify-content: center;
         align-items: center;
-        margin-right: 50px!important;
     }
 
     .botoes-hero {
