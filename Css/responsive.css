@@ -23,7 +23,7 @@
     }
 }
 
-@media screen and (width <= 991px) {
+@media screen and (max-width: 991px) {
     .grupo-sobre-lp {
         flex-direction: column;
         justify-content: center;
