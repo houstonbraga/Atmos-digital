@@ -133,11 +133,17 @@ a.navbar-brand {
     overflow: hidden!important;
 }
 
+
+
 .img-hero img {
     overflow: hidden!important;
 }
 
 .home {
+    background-image: url('Group 4.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -358,6 +364,7 @@ a.navbar-brand {
 
 .divisoria-servicos {
     overflow: hidden!important;
+    width: 100%;
     opacity: 10%;
     margin-top: 200px;
     margin-bottom: 100px;
@@ -620,11 +627,18 @@ a.navbar-brand {
 
 .projeto-img {
     width: 380px;
+    overflow: hidden;
+    cursor: pointer;
 }
 
 .projeto-img img {
     border-radius: 5px;
     width: 100%;
+    transition: 0.3s ease-in-out;
+}
+
+.projeto-img:hover .imagem-projeto {
+    transform: scale(1.1);
 }
 
 .projeto {
@@ -633,7 +647,7 @@ a.navbar-brand {
 }
 
 .projeto span {
-    font-family: 'Gurajada';
+    font-family: 'Gurajada-regular';
     font-size: 24px;
     color: #72E985;
 }
@@ -755,6 +769,10 @@ a.navbar-brand {
     border-radius: 10px;
 }
 
+.div-rosa button:hover {
+    transform: scale(1.1);
+}
+
 
 /*depoimentos*/
 
@@ -775,6 +793,7 @@ a.navbar-brand {
 .depoimentos h1{
     font-family: 'Poppins medium';
     margin-bottom: 100px;
+    text-align: center;
 }
 
 .conjunto-depoimentos {
@@ -848,6 +867,7 @@ a.navbar-brand {
 }
 
 /*line footer*/
+
 
 .line {
     margin-top: 100px;

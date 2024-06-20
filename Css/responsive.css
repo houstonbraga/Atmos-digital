@@ -65,6 +65,19 @@
     .linha-etapas2 {
         display: none;
     }
+
+    .conjunto-depoimentos {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .depoimento2 {
+        display: none;
+    }
+
+    .listramobile {
+        display: flex!important;
+    }
 }
 
 @media screen and (max-width: 880px) {
@@ -72,7 +85,6 @@
 
     .grupo-sistemas {
         flex-direction: column!important;
-        transform: scale(0.8);
     }
 }
 
@@ -164,6 +176,11 @@
         padding: 20px;
         text-align: center;
     }
+
+    .div-rosa h1 {
+        font-size: 24px;
+        text-align: center;
+    }
 }
 
 @media screen and (max-width: 596px) {
@@ -230,10 +247,6 @@
     .sobre h2 {
         text-align: center;
     }
-
-    .session-trabalhos h2 {
-        
-    }   
 
     .sobre img{
         width: 350px;
