@@ -883,8 +883,9 @@ body {
 
 .group-footer {
     flex-wrap: wrap;
-    justify-content: space-evenly;
-    gap: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
 }
 
 .group1 {

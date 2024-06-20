@@ -165,13 +165,17 @@
         overflow: hidden!important;
     }
 
+    
+
 
 
 }
 
 @media screen and (max-width: 530px) {
 
-    
+    .depoimento {
+        width: 350px;
+    }
 
     .sistemas h1 {
         margin-bottom: 10px;
