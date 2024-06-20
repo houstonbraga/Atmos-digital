@@ -100,7 +100,7 @@ body {
 .nav-item a {
     transition: 0.2s ease-in-out;
     position: relative;
-    padding-right: 5px;
+    
 }
 
 .nav-item a:hover {
@@ -127,7 +127,6 @@ body {
 .home .img-hero {
     position: absolute;
     top: -50;
-    width: 100%;
     z-index: -1;
     right: 0;
     left: 0;
