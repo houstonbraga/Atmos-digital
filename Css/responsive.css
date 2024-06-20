@@ -185,19 +185,6 @@
 
 @media screen and (max-width: 596px) {
 
-    /*header e hero*/
-    .header .logo {
-        position: absolute;
-        top: 15px;
-        left: -70px;
-    }
-
-    .header .navbar-toggler-icon {
-        position: absolute;
-        top: 15px;
-        right: -70px;
-    }
-
     .img-hero img {
         overflow: hidden!important;
     }
