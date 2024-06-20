@@ -890,7 +890,7 @@ body {
 .group1 {
     max-width: 450px;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     gap: 20px;
 }
 
@@ -1053,7 +1053,6 @@ body {
 .lista-n-ord {
     display: flex;
     flex-direction: column;
-    justify-content: start;
     gap: 10px;
 }
 
@@ -1061,11 +1060,15 @@ body {
     display: flex;
     flex-direction: row;
     gap: 10px;
-    width: 450px;
-    align-items: flex-start!important;
+    width: 390px;
+    
 }
 
 .contatos a {
+    color: #717171;
+}
+
+.contatos a:hover {
     color: #B84480;
 }
   

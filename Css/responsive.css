@@ -94,38 +94,14 @@
     /*header e hero*/
 
     .header {
-        padding-left: 0!important;
-        padding-right: 0!important;
+        padding-left: 25px!important;
+        padding-right: 25px!important;
         
-    }
-
-    .header .logo {
-        width: 100px;
-        
-    }
-
-    .img-hero img{
-        width: 800px!important;
-        display: flex;
-        justify-content: center;
-    }
-
-    .sombra-hero {
-        height: 400px;
-    }
-}
-
-@media screen and (max-width: 740px) {
-    /*hero*/
-
-    
-
-    .sombra-hero {
-        height: 350px;
     }
 
     
 
+   
 
 }
 
@@ -258,5 +234,10 @@
 
     .divisoria-servicos {
         gap: 30px;
+    }
+
+    .group1 {
+        padding-left: 25px;
+        padding-right: 25px;
     }
 }
