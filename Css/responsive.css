@@ -23,6 +23,18 @@
     }
 }
 
+@media screen and (width <= 991px) {
+    .grupo-sobre-lp {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .textolp2 {
+        margin: 0;
+    }
+}
+
 @media screen and (max-width: 935px) {
     /*servicos*/
 
@@ -126,6 +138,32 @@
     .linha-etapas {
         transform: rotate(270deg);
     }
+
+    .landing-pages h2 {
+        margin-bottom: 5px;
+    }
+
+    .grupo-img-lp {
+        transform: scale(0.6);
+    }
+
+    .texto-lp {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .textolp1 {
+        padding: 20px;
+        text-align: center;
+        margin-top: 0;
+    }
+
+    .textolp2 {
+        padding: 20px;
+        text-align: center;
+    }
 }
 
 @media screen and (max-width: 596px) {
@@ -193,7 +231,9 @@
         text-align: center;
     }
 
-    /*sobre*/
+    .session-trabalhos h2 {
+        
+    }   
 
     .sobre img{
         width: 350px;

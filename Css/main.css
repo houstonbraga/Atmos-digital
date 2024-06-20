@@ -591,6 +591,7 @@ a.navbar-brand {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
 }
 
 .session-trabalhos h2 {
@@ -605,8 +606,8 @@ a.navbar-brand {
     display: flex;
     flex-direction: row;
     width: 100%;
-    align-items: flex-start!important;
-    margin-left: -100px!important;
+    justify-content: center;
+    flex-wrap: wrap;
     gap: 10px;
     margin-bottom: 50px;
 }
@@ -617,8 +618,13 @@ a.navbar-brand {
     display: flex;
 }
 
+.projeto-img {
+    width: 380px;
+}
+
 .projeto-img img {
     border-radius: 5px;
+    width: 100%;
 }
 
 .projeto {
