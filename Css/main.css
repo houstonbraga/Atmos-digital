@@ -215,7 +215,7 @@ body {
     align-items: center;
     overflow: hidden;
     white-space: nowrap;
-    gap: 100px;
+    gap: 50px;
 }
 
 .conteudo-separator {
