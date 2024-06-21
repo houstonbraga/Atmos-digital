@@ -236,6 +236,7 @@ body {
     padding-left: 50px!important;
     padding-right: 50px!important;
     position: relative;
+    overflow-x: hidden!important;
 }
 
 .sobre h2 {
@@ -289,6 +290,7 @@ body {
     margin-top: 200px;
     margin-bottom: 200px;
     position: relative;
+    overflow-x: hidden!important;
 }
 
 .servicos h1 {
@@ -394,6 +396,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    overflow: hidden!important;
 }
 
 .qualidades {
@@ -442,6 +445,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    overflow-x: hidden!important;
 }
 
 .sessao-como-funciona h2 {
@@ -543,6 +547,7 @@ body {
     justify-content: center;
     margin-top: 200px;
     align-items: center;
+    overflow-x: hidden!important;
 }
 
 .landing-pages h2 {
@@ -609,6 +614,7 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    overflow-x: hidden!important;
 }
 
 .session-trabalhos h2 {
@@ -692,6 +698,7 @@ body {
     margin-top: 100px;
     justify-content: center;
     align-items: center;
+    overflow-x: hidden!important;
 }
 
 .nossos-sistemas {
@@ -792,6 +799,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    overflow-x: hidden!important;
 }
 
 .depoimentos h2 {
@@ -888,6 +896,10 @@ body {
 }
 
 /*footer*/
+
+.footer {
+    overflow-x: hidden!important;
+}
 
 .group-footer {
     flex-wrap: wrap;
