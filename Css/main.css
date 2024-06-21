@@ -288,6 +288,7 @@ body {
     align-items: center;
     margin-top: 200px;
     margin-bottom: 200px;
+    position: relative;
 }
 
 .servicos h1 {
@@ -369,7 +370,6 @@ body {
 
 .divisoria-servicos {
     overflow: hidden!important;
-    width: 100%;
     opacity: 10%;
     margin-top: 200px;
     margin-bottom: 100px;
@@ -388,6 +388,7 @@ body {
 }
 
 .div-servicos {
+    margin-top: 100px;
     gap: 100px;
     position: relative;
     display: flex;
