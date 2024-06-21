@@ -119,6 +119,10 @@
         transform: scale(0.6);
     }
 
+    .div-servicos {
+        margin-top: -100px;
+    }
+
     .texto-lp {
         display: flex;
         flex-direction: column;
@@ -140,6 +144,10 @@
     .div-rosa h1 {
         font-size: 24px;
         text-align: center;
+    }
+
+    .conjunto-cards-servicos {
+        margin-bottom: -50px;
     }
 }
 
@@ -221,7 +229,7 @@
     }
 
     .group1 {
-        padding-left: 25px;
-        padding-right: 25px;
+        padding-left: 40px;
+        padding-right: 40px;
     }
 }

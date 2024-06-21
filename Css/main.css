@@ -916,6 +916,8 @@ body {
 }
 
 .group1 p {
+    display: flex;
+    flex-wrap: wrap;
     font-size: 16px;
     color: #858585;
 }
@@ -923,7 +925,6 @@ body {
 .group2 {
     gap: 0px;
     margin-top: 50px;
-    
 }
 
 /*imput footer*/
