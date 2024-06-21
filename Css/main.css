@@ -547,7 +547,7 @@ body {
     justify-content: center;
     margin-top: 200px;
     align-items: center;
-    overflow-x: hidden!important;
+    overflow: hidden!important;
 }
 
 .landing-pages h2 {
@@ -788,6 +788,10 @@ body {
 
 .div-rosa button:hover {
     transform: scale(1.1);
+}
+
+.arrow-mobile {
+    display: none;
 }
 
 

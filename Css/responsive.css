@@ -102,13 +102,23 @@
         display: flex;
         flex-direction: column;
     }
+
+    .arrow-mobile {
+        display: flex;
+        transform: rotate(90deg);
+        opacity: 0.9;
+    }
     
     .linha-etapas2 {
         display: flex;
+        
     }
 
     .linha-etapas {
         transform: rotate(270deg);
+        display: flex;
+        justify-content: center;
+        
     }
 
     .landing-pages h2 {
@@ -232,4 +242,10 @@
         padding-left: 40px;
         padding-right: 40px;
     }
+
+    .etapa {
+        transform: scale(1.2);
+    }
+
+    
 }
