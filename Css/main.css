@@ -385,6 +385,9 @@ body {
 .div-servicos {
     gap: 100px;
     position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .qualidades {
