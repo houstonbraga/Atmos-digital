@@ -387,7 +387,7 @@ body {
     height: 404px;
     background-color: #1b1b1b;
     z-index: 1;
-    box-shadow: 5px 5px 25px rgba(0, 0, 0, 0.445);
+    box-shadow: 5px 15px 25px #b844802c;
 }
 
 .card-servico::before {
@@ -782,6 +782,37 @@ body {
     box-shadow: 7px 7px #b84480bd;
     margin-bottom: 50px;
 }
+
+.img-sistema {
+    position: relative;
+    display: inline-block;
+}
+
+.img-sistema img {
+    cursor: pointer;
+    transition: 0.4s ease-in;
+    filter: grayscale(0.7);
+}
+
+ /* .img-sistema::after { 
+    content: url('/img/icons8-natural-user-interface-2-30.png');
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    filter: drop-shadow(5px 1px 10px rgba(0, 0, 0, 0.973));
+}  */
+
+.img-sistema img:hover {
+    transform: translate(7px, 7px);
+    box-shadow: none;
+    filter: grayscale(0);
+}
+
+.img-sistema img:hover img-sistema::after {
+    content: none;
+}
+
 
 .sistemas .title-sistema {
     color: #FAA819;
