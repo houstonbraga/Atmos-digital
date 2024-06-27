@@ -144,7 +144,7 @@ body {
     border-radius: 50%;
     filter: blur(50%);
     position: absolute;
-    overflow: hidden;
+    overflow: hidden!important;
 }
 
 .shadow2 {
@@ -155,9 +155,9 @@ body {
     border-radius: 50%;
     filter: blur(50%);
     position: absolute;
-    left: 50%;
+    right: 0;
     transform: translateY(-300px);
-    overflow: hidden;
+    overflow: hidden!important;
 }
 
 .shadow3 {
@@ -168,9 +168,9 @@ body {
     border-radius: 50%;
     filter: blur(50%);
     position: absolute;
-    right: 50%;
+    left: 0;
     transform: translateY(-300px);
-    overflow: hidden;
+    overflow: hidden!important;
 }
 
 .shadow4 {
@@ -181,8 +181,8 @@ body {
     border-radius: 50%;
     filter: blur(50%);
     position: absolute;
-    left: 50%;
-    overflow: hidden;
+    right: 0;
+    overflow: hidden!important;
 }
 
 .shadow5 {
@@ -193,9 +193,9 @@ body {
     border-radius: 50%;
     filter: blur(50%);
     position: absolute;
-    right: 50%;
+    left: 0;
     transform: translateY(-300px);
-    overflow: hidden;
+    overflow: hidden!important;
 }
 
 .shadow6 {
@@ -208,7 +208,7 @@ body {
     position: absolute;
     right: 0;
     transform: translateY(-300px);
-    overflow: hidden;
+    overflow: hidden!important;
 }
 /*resto do conteudo*/
 

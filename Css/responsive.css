@@ -263,6 +263,9 @@
 
     .shadow3 {
         transform: translate(150px,-750px);
-        
+    }
+
+    .shadow6, .shadow2, .shadow3, .shadow4, .shadow5 {
+        overflow: hidden!important;
     }
 }
