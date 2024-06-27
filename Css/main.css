@@ -137,7 +137,7 @@ body {
     width: 220px;
 }
 
-/*.shadow1 {
+.shadow1 {
     width: 600px;
     height: 600px;
     z-index: -3;
@@ -210,10 +210,10 @@ body {
     right: 0;
     overflow: hidden!important;
 }
-*/
+
 /*resto do conteudo*/
 
-.color-purple {
+.color-purple {''
     color: #B84480;
 }
 
@@ -789,12 +789,13 @@ body {
     height: 200px;
     overflow: hidden;
     cursor: pointer;
+    
 }
 
 .projeto-img img {
-    border-radius: 5px;
     width: 100%;
     transition: 0.3s ease-in-out;
+    box-shadow: 7px 7px 2px #B84480;
 }
 
 .projeto-img:hover .imagem-projeto {
