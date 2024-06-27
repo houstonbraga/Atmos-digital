@@ -251,13 +251,25 @@
         transform: scale(1.2);
     }
 
+    .projeto-img {
+        width: 370px;
+    }
+
     .conjunto-projetos img {
         width: 100%;
     }
 
-
+    .shadow {
+        display: none;
+    }
 
     .separator1 {
         margin-top: 400px;
+    }
+
+    .shadow1 {
+        width: 100vh;
+        position: absolute;
+        left: 0;
     }
 }
