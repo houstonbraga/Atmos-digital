@@ -137,7 +137,7 @@ body {
     width: 220px;
 }
 
-.shadow1 {
+/*.shadow1 {
     width: 600px;
     height: 600px;
     z-index: -3;
@@ -210,6 +210,7 @@ body {
     right: 0;
     overflow: hidden!important;
 }
+*/
 /*resto do conteudo*/
 
 .color-purple {
