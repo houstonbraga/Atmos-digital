@@ -205,8 +205,11 @@
         margin-bottom: -270px!important;
     }
 
+    
+
     .sobre h2 {
         text-align: center;
+        margin-top: 220px!important;
     }
 
     .sobre img{
@@ -232,6 +235,7 @@
     .botoes-hero {
         display: flex;
         flex-direction: column;
+        gap: 30px!important;
     }
 
     .divisoria-servicos {
@@ -247,5 +251,13 @@
         transform: scale(1.2);
     }
 
-    
+    .conjunto-projetos img {
+        width: 100%;
+    }
+
+
+
+    .separator1 {
+        margin-top: 400px;
+    }
 }

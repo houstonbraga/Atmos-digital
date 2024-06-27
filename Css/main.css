@@ -136,6 +136,19 @@ body {
     width: 220px;
 }
 
+.shadow1 {
+    width: 600px;
+    height: 600px;
+    z-index: -3;
+    background: radial-gradient(circle, #b8448025 0%, #b8448000 70%);
+    border-radius: 50%;
+    filter: blur(40%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
 /*resto do conteudo*/
 
 .color-purple {
@@ -648,7 +661,6 @@ body {
     top: 200px;
     right: -50px;
     filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.5));
-
 }
 
 .textolp1 {
@@ -675,7 +687,6 @@ body {
 /*
     trabalhos realizados
 */
-
 
 .session-trabalhos {
     margin-top: 200px;
@@ -810,7 +821,7 @@ body {
 }
 
 .img-sistema img:hover img-sistema::after {
-    content: none;
+    content: " ";
 }
 
 
@@ -1034,8 +1045,6 @@ body {
 
 /*imput footer*/
 
-
-
 .form-container {
     width: 400px;
     background: linear-gradient(#1b1b1b, #1b1b1b) padding-box,
@@ -1188,7 +1197,6 @@ body {
     flex-direction: row;
     gap: 10px;
     width: 390px;
-    
 }
 
 .contatos a {
@@ -1207,7 +1215,6 @@ body {
 
 .span-footer {
     font-size: 14px;
-
 }
 
 .copy-footer {
