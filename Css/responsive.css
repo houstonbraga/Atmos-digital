@@ -260,4 +260,9 @@
     .separator1 {
         margin-top: 400px;
     }
+
+    .shadow3 {
+        transform: translate(150px,-750px);
+        
+    }
 }

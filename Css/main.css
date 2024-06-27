@@ -142,11 +142,74 @@ body {
     z-index: -3;
     background: radial-gradient(circle, #b8448025 0%, #b8448000 70%);
     border-radius: 50%;
-    filter: blur(40%);
+    filter: blur(50%);
     position: absolute;
-    
+    overflow: hidden;
 }
 
+.shadow2 {
+    width: 700px;
+    height: 700px;
+    z-index: -3;
+    background: radial-gradient(circle, #b8448025 0%, #b8448000 70%);
+    border-radius: 50%;
+    filter: blur(50%);
+    position: absolute;
+    left: 50%;
+    transform: translateY(-300px);
+    overflow: hidden;
+}
+
+.shadow3 {
+    width: 700px;
+    height: 700px;
+    z-index: -3;
+    background: radial-gradient(circle, #b8448025 0%, #b8448000 70%);
+    border-radius: 50%;
+    filter: blur(50%);
+    position: absolute;
+    right: 50%;
+    transform: translateY(-300px);
+    overflow: hidden;
+}
+
+.shadow4 {
+    width: 700px;
+    height: 700px;
+    z-index: -3;
+    background: radial-gradient(circle, #b8448025 0%, #b8448000 70%);
+    border-radius: 50%;
+    filter: blur(50%);
+    position: absolute;
+    left: 50%;
+    overflow: hidden;
+}
+
+.shadow5 {
+    width: 700px;
+    height: 700px;
+    z-index: -3;
+    background: radial-gradient(circle, #b8448025 0%, #b8448000 70%);
+    border-radius: 50%;
+    filter: blur(50%);
+    position: absolute;
+    right: 50%;
+    transform: translateY(-300px);
+    overflow: hidden;
+}
+
+.shadow6 {
+    width: 700px;
+    height: 700px;
+    z-index: -3;
+    background: radial-gradient(circle, #b8448018 0%, #b8448000 70%);
+    border-radius: 50%;
+    filter: blur(80%);
+    position: absolute;
+    right: 0;
+    transform: translateY(-300px);
+    overflow: hidden;
+}
 /*resto do conteudo*/
 
 .color-purple {
@@ -722,6 +785,7 @@ body {
 
 .projeto-img {
     width: 380px;
+    height: 200px;
     overflow: hidden;
     cursor: pointer;
 }
