@@ -261,9 +261,7 @@
         margin-top: 400px;
     }
 
-    .shadow3 {
-        transform: translateY(-750px);
-    }
+    
 
     .shadow6, .shadow2, .shadow3, .shadow4, .shadow5 {
         overflow: hidden!important;
