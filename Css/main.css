@@ -145,6 +145,7 @@ body {
     filter: blur(50%);
     position: absolute;
     overflow: hidden!important;
+    left: 0;
 }
 
 .shadow2 {
@@ -156,7 +157,7 @@ body {
     filter: blur(50%);
     position: absolute;
     right: 0;
-    transform: translateY(-300px);
+    
     overflow: hidden!important;
 }
 
@@ -169,7 +170,7 @@ body {
     filter: blur(50%);
     position: absolute;
     left: 0;
-    transform: translateY(-300px);
+    
     overflow: hidden!important;
 }
 
@@ -194,7 +195,6 @@ body {
     filter: blur(50%);
     position: absolute;
     left: 0;
-    transform: translateY(-300px);
     overflow: hidden!important;
 }
 
@@ -207,7 +207,6 @@ body {
     filter: blur(80%);
     position: absolute;
     right: 0;
-    transform: translateY(-300px);
     overflow: hidden!important;
 }
 /*resto do conteudo*/
