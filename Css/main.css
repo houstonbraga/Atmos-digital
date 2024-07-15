@@ -213,7 +213,7 @@ body {
 
 /*resto do conteudo*/
 
-.color-purple {''
+.color-purple {
     color: #B84480;
 }
 
@@ -231,8 +231,19 @@ body {
     color: #FAA819!important;
 }
 
+.navbar-toggler {
+    border: none!important;
+    background: none!important;
+}
 
+.navbar-toggler-icon img {
+    width: 24px;
+    height: 24px;
+}
 
+.navbar-collapse {
+    transition: height 0.3s ease;
+}
 .nav-link {
     color: var(--color-white)!important;
     padding-left: 35px!important;
