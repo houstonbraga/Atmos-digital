@@ -299,10 +299,6 @@ body {
 }
 
 .home {
-    background-image: url('Group 4.png');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -768,7 +764,7 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    overflow-x: hidden!important;
+    
 }
 
 .session-trabalhos h2 {
@@ -796,25 +792,27 @@ body {
 }
 
 .projeto-img {
-    width: 380px;
+    width: 350px;
     height: 200px;
-    overflow: hidden;
     cursor: pointer;
-    transition: 0.3s ease-in-out;
+    transition: 0.4s ease-in;
+    box-shadow: 7px 7px #b84480c2;
+    overflow: hidden;
+    
 }
 
 .projeto-img img {
     width: 100%;
-    transition: 0.3s ease-in-out;
+    height: 100%;
+    transition: 0.4s ease-in;
 }
 
-
-
-.projeto-img:hover .imagem-projeto {
-    transform: scale(1.1);
-    filter: grayscale(0.9);
-    
+.projeto-img:hover {
+    transform: translate(7px, 7px);
+    box-shadow: none;
+    filter: grayscale(0.7);
 }
+
 
 .projeto {
     display: flex;
@@ -824,7 +822,7 @@ body {
 .projeto span {
     font-family: 'Gurajada-regular';
     font-size: 24px;
-    color: #72E985;
+    color: white;
 }
 
 .conjunto-listras{
@@ -880,7 +878,7 @@ body {
 .img-sistema img {
     cursor: pointer;
     transition: 0.4s ease-in;
-    filter: grayscale(0.7);
+    filter: grayscale(0);
 }
 
  /* .img-sistema::after { 
@@ -895,7 +893,7 @@ body {
 .img-sistema img:hover {
     transform: translate(7px, 7px);
     box-shadow: none;
-    filter: grayscale(0);
+    filter: grayscale(0.7);
 }
 
 .img-sistema img:hover img-sistema::after {

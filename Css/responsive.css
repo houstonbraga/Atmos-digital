@@ -189,6 +189,14 @@
         width: 350px;
     }
 
+    .projeto-img {
+        width: 350px;
+    }
+
+    .conjunto-projetos {
+        
+    }
+
     
 }
 
@@ -251,10 +259,6 @@
         transform: scale(1.2);
     }
 
-    .projeto-img {
-        width: 370px;
-    }
-
     .conjunto-projetos img {
         width: 100%;
     }
@@ -263,7 +267,7 @@
         display: none;
     }
 
-    .separator1 {
+    .separator-logo {
         margin-top: 400px;
     }
 
