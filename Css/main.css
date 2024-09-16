@@ -564,7 +564,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    overflow: hidden;
+    overflow: hidden!important;
 }
 
 .qualidades {
@@ -715,6 +715,7 @@ body {
     justify-content: center;
     margin-top: 200px;
     align-items: center;
+    
 }
 
 .landing-pages h2 {
