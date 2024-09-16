@@ -715,7 +715,7 @@ body {
     justify-content: center;
     margin-top: 200px;
     align-items: center;
-    
+    overflow: hidden!important;
 }
 
 .landing-pages h2 {
